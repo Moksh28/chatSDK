@@ -1,0 +1,24 @@
+/* Styling for the chat bubble */
+.chat-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Styling for the chat window */
+#chat-window {
+    display: none; /* Initially hidden */
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 300px;
+    z-index: 1000; /* Ensure it's above other content */
+}
